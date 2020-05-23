@@ -33,7 +33,6 @@ for j in range(len(node_1_array)):
 
 
 output_array = []
-temp_list = []
 temp_dict ={}
 source_node = {}
 target_node = {}
@@ -51,12 +50,9 @@ for i in final_array:
     temp_dict = dict(id = i[1])
     target_node = dict(data = temp_dict)
 
-    temp_list.append(source_node)
-    temp_list.append(target_node)
-    temp_list.append(an_edge)
-
-    output_array.append(temp_list)
-    temp_list = []
+    output_array.append(source_node)
+    output_array.append(target_node)
+    output_array.append(an_edge)
 
 
 
