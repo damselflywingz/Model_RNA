@@ -32,9 +32,11 @@ Given the short timescale between when SARS-Cov-2 was first discovered and when 
 ## Visualization Approach and Tools Used
 
 Utilizing Cytoscape.js to visualize the network of possible interactions between RNA molecules of the host and viral.
+
 Using ViennaRNA to plot structure models developed by the pipeline team.
 
 Current development git repo: [https://github.com/taytayp/cytoscape-rna-model](https://github.com/taytayp/cytoscape-rna-model)
+
 Cytoscape.js page: [https://js.cytoscape.org/](https://js.cytoscape.org/)
 
 ## *The Team*
