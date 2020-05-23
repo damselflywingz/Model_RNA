@@ -1,0 +1,30 @@
+
+#################May 18, 2017 - working on ncRNA
+
+### to get a list of ncRNA DEG from R then extract the sequences from to ncRNA file using bbtools
+
+~/BBMap/bbmap/filterbyname.sh in=default_ncRNA50.fasta names=DEGs_ncRNA_temp_strict.txt out=test.fasta include=t
+
+
+#then use RNAplex to search for targets. The 'default UTR file' is all CDs with sequence extracted 200 bp upstream and 100 bp downstream of the start codon.That was done using the reference genome and bedtools - " bedtools getfasta -fi test.fa -bed test.bed -s -name" , it is critical that the table with the strand info is not input from excel, it needs to be copied into a text editor first or else bedtools will not extract the reverse complement on the minus strand.
+
+bedtools getfasta -s -name -fi CP010029.1.fasta -bed defualt_UTRs_150up.txt -fo default_UTRs_150up.fasta
+
+
+########June 22, 2017 - RNAplfold/RNAplex (from supplemental http://www.tandfonline.com/doi/full/10.1080/15476286.2015.1020269)
+#in this example they compute accessibility with RNAplfold (V1.8)
+
+RNAplfold -u 45 -O < coli_sRNA_v5.fa 
+
+#the small ncRNAs, -u computes the mean probability that regions of lenght 1 to a given length are unparied. Output is saved in a _lunpfile
+
+RNAplfold -W 240 -L 160 -u 45 -O < NC_000913_CDS_-200nt_100nt.fa # these are 200 nt 5' and 100 nt 3' of the start codon
+
+RNAplex -t NC_00913_CDS_-200nt_100nt.fa -q coli_sRNA_v5.fa -l 40 -z 20 -a ./access/ > results_targetRNA.txt
+
+
+###########
+
+
+#then need to organize the RNAplex output into appropriate format
+awk 'ORS=NR%3?" ":"\n"' input.txt > output.txt
