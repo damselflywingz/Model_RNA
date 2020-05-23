@@ -15,8 +15,8 @@ edges_array = []
 for i in range(0,len(whole_array),3):
     if(i == len(whole_array)-1 or i == len(whole_array)-2):
         break
-    node_1_array.append(whole_array[i])
-    node_2_array.append(whole_array[i+1])
+    node_1_array.append(whole_array[i].replace('>',''))
+    node_2_array.append(whole_array[i+1].replace('>',''))
     edges_array.append(whole_array[i+2])
 
 
