@@ -48,24 +48,33 @@ While previous studies have aimed to model the interaction between structures in
 * Amber Paulson (Team Lead)
 
 ### Pipeline Construction Team: 
-  * Teresa  
-  * Michaela Agapiou   
-  * Anna Valyaeva
-  * Sanjana Bhatnagar  
-  * Christina Akirtava 
+
+|        Name        	|     GitHub ID    	|       Work Done       	|
+|:------------------:	|:----------------:	|:---------------------:	|
+| Teresa Tavella     	|         -        	| Pipeline Construction 	|
+| Michaela Agapiou   	| magapiou         	| Pipeline Construction 	|
+| Anna Valyaeva      	| kirushka         	| Pipeline Construction 	|
+| Sanjana Bhatnagar  	| sanjanabhatnagar 	| Pipeline Construction 	|
+| Christina Akirtava 	|         -        	| Pipeline Construction 	|
   
  ### Visualization/Analysis Team:
-  * Jason Laird 
-  * Jaspreet Singh 
-  * Fatemeh Kiannejad 
-  * Mary Chung 
+
+|        Name       	| GitHub ID  	|        Work Done       	|
+|:-----------------:	|------------	|:----------------------:	|
+| Jason Laird       	| jlaird-bio 	| Visualization/Analysis 	|
+| Jaspreet Singh    	|      -     	| Visualization/Analysis 	|
+| Fatemeh Kiannejad 	| kfate      	| Visualization/Analysis 	|
+| Mary Chung        	| mary-chung 	| Visualization/Analysis 	|
   
 ### Integrated management Team :
-* Salini Konikkat 
-* Taylor Falk 
-* Clara Smoniewski
-* Thomas Ng 
-* Varun Kotipalli 
+
+|       Name       	|    GitHub ID    	|       Work Done       	|
+|:----------------:	|:---------------:	|:---------------------:	|
+| Salini Konikkat  	|        -        	| Integrated management 	|
+| Taylor Falk      	| taytayp         	| Integrated management 	|
+| Clara Smoniewski 	| ClaraSmon       	| Integrated management 	|
+| Thomas Ng        	| ngthomas        	| Integrated management 	|
+| Varun Kotipalli  	| varun-kotipalli 	| Integrated management 	|
 
 ## Note to Prospective Contributors
 
