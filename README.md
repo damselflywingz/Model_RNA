@@ -58,7 +58,7 @@ While previous studies have aimed to model the interaction between structures in
 | Michaela Agapiou   	| magapiou         	| Pipeline Construction 	|
 | Anna Valyaeva      	| kirushka         	| Pipeline Construction 	|
 | Sanjana Bhatnagar  	| sanjanabhatnagar 	| Pipeline Construction 	|
-| Christina Akirtava 	|         -        	| Pipeline Construction 	|
+| Christina Akirtava 	| bio2data         	| Pipeline Construction 	|
   
  ### Visualization/Analysis Team:
 
