@@ -45,7 +45,10 @@ While previous studies have aimed to model the interaction between structures in
 
 ## *The Team*
  
-* Amber Paulson (Team Lead)
+|        Name        	|     GitHub ID    	|       Work Done       	|
+|:------------------:	|:----------------:	|:---------------------:	|
+| Amber Paulson      	| damselflywingz    | Team Leaad            	|
+ 
 
 ### Pipeline Construction Team: 
 
